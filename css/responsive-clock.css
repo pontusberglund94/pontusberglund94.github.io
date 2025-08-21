@@ -190,12 +190,11 @@
 }
 
 .flipTimebox {
+  display: -webkit-flex;
   display: flex;
+  -webkit-justify-content: center;
   justify-content: center;
+  -webkit-align-items: center;
   align-items: center;
   width: 100%;
-}
-
-.flipTimebox .flip-clock-wrapper {
-  margin: 4em 0 !important;
 }
