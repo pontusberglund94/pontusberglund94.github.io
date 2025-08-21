@@ -1,4 +1,7 @@
-
+.flipTimebox {
+  text-align: center;
+  width: 100%;
+}
 
 @media screen and (max-width: 767px) {
   .flipTimebox .flip-clock-wrapper ul {
@@ -114,7 +117,7 @@
     margin-left: -10px;
   }
   .flipTimebox {
-    margin: 50px 0 100px 20px;
+    margin: 50px auto 100px auto;
   }
 }
 @media screen and (max-width: 360px) {
@@ -148,7 +151,7 @@
     margin-left: -16px;
   }
   .flipTimebox {
-    margin: 50px 0 100px 20px;
+    margin: 50px auto 100px auto;
   }
 }
 @media screen and (max-width: 320px) {
@@ -180,7 +183,7 @@
 }
 
 .flip-clock-wrapper {
-  margin: 4em !important;
+  margin: 4em auto !important;
 }
 
 .flip-clock-divider .flip-clock-label {
