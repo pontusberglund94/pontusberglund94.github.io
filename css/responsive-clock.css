@@ -204,3 +204,23 @@
     display: inline-block;
     margin: 4em 0 !important;
 }
+
+/* Clock scaling for mobile - add at the very bottom */
+@media screen and (max-width: 768px) {
+    .flipTimebox .flip-clock-wrapper {
+        transform: scale(0.8);
+        transform-origin: center;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .flipTimebox .flip-clock-wrapper {
+        transform: scale(0.7);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .flipTimebox .flip-clock-wrapper {
+        transform: scale(0.6);
+    }
+}
